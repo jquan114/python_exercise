@@ -67,3 +67,7 @@ for a_student in awesome_students:
 
 # Exercise 8
 # Using the tuple food sand list comprehension within a for loop, print each food string that contains the letter a.
+
+final= [key for key in foods if 'a' in key]
+for each in final:
+    print(each)
